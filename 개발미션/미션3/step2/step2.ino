@@ -19,9 +19,10 @@ void loop() {
   Serial.println(soil);
   delay(500);
  
- if(soil<500){
+ if(soil>500){
   tone(6, 131);
   delay(1000);
+  noTone(6);
  }else{
   noTone(6);
  }
