@@ -1,7 +1,6 @@
 #include<SoftwareSerial.h>
 #include<DFRobotDFPlayerMini.h>
 #include<Adafruit_NeoPixel.h>
-#include<DHT.h>
 
 long randNumber;
 SoftwareSerial mySerial(10,11);
